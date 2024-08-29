@@ -1,0 +1,38 @@
+backend
+1. create server folder
+2. add following folders:
+    config
+    models 
+    schemas
+    seeds 
+2b. Create a git ignore and node_modules, .env 
+2c. Add readme with title of app 
+3. Create package.json 
+    npm init 
+    npm i mongoose @apollo/server express graphql
+    npm i nodemon --save-dev 
+    add scripts to run app in dev mode 
+4. Create server.js 
+5. Create database 
+    add connection.js file in config/
+5b. Push to GitHub 
+    in terminal: git init 
+    in browser: create new repo w/o a readme 
+    in vscode or termial add, commit and push code 
+6. Create models
+    add item model 
+        name  
+        image 
+        cost 
+        calories
+7. Create  schema: typeDefs and resolvers
+    query: items
+8. Add seed database    
+    cleabDB.js - file to empty the database 
+    items.json - database 
+    seed.js - executes the seeding process
+    add to scripts section of the package.json, seed script
+9. Test items endpoing in apollo 
+
+
+    (graphql???)
